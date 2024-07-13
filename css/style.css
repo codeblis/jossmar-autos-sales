@@ -1,23 +1,23 @@
 @font-face {
   font-family: "Fast-Regular";
-  src: url(/fonts/FastRegular.ttf);
+  src: url(/jossmar-autos-sales/fonts/FastRegular.ttf);
 }
 @font-face {
   font-family: "Darelle";
-  src: url(/fonts/Darelle.otf);
+  src: url(/jossmar-autos-sales/fonts/Darelle.otf);
 }
 @font-face {
   font-family: "LibreFranklin";
-  src: url(/fonts/LibreFranklin-VariableFont_wght.ttf);
+  src: url(/jossmar-autos-sales/fonts/LibreFranklin-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "Heselna";
-  src: url(/fonts/Heselna.ttf);
+  src: url(/jossmar-autos-sales/fonts/Heselna.ttf);
 }
 
 @font-face {
   font-family: "Salmon";
-  src: url(/fonts/Salmon.ttf);
+  src: url(/jossmar-autos-sales/fonts/Salmon.ttf);
 }
 
 body {
