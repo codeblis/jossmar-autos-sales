@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "Fast-Regular";
+  src: url(/fonts/FastRegular.ttf);
+}
+@font-face {
+  font-family: "Darelle";
+  src: url(/fonts/Darelle.otf);
+}
+@font-face {
+  font-family: "LibreFranklin";
+  src: url(/fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Heselna";
+  src: url(/fonts/Heselna.ttf);
+}
+
+@font-face {
+  font-family: "Salmon";
+  src: url(/fonts/Salmon.ttf);
+}
+
+body {
+  font-family: "LibreFranklin";
+  padding-bottom: 0;
+}
+#banner {
+  text-align: center;
+  font-family: "LibreFranklin";
+  min-width: 300px;
+  display: block;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: transparent;
+  background-image: url(/images/banner.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-clip: border-box;
+  color: #fff;
+  height: fit-content;
+}
+
+#navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: "Salmon";
+  font-size: 1.3em;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#navegacion nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navegacion nav ul li {
+  font-weight: 700;
+  padding: 0 15px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.icono-menu img {
+  display: none;
+}
+
+@media screen and (max-width: 700px) and (min-width: 451px) {
+  .hero h1 {
+    font-size: 3em;
+  }
+  .icono-menu img {
+    display: block;
+  }
+  #navegacion nav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+  .icono-menu img {
+    display: none;
+  }
+  #navegacion {
+    display: flex;
+    flex-direction: column;
+  }
+  #navegacion nav ul {
+    padding-top: 10px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.hero {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5em;
+}
+
+.slogan {
+  margin-top: 50px;
+}
+
+.slogan h3 {
+  font-size: 1.5em;
+  margin-top: -15px;
+}
+
+.contactus {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  display: block;
+  font-weight: 500;
+  width: fit-content;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: solid 2px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: ease-in-out background-color 200ms;
+}
+
+.contactus:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.contactus:active {
+  box-shadow: inset 0 0 10px 0 rgb(0 0 0 /30%);
+  border-color: #ccc;
+  scale: 0.99;
+}
+
+.cualidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 30px;
+  gap: 15px;
+}
+
+.cualidad {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  min-width: 200px;
+  min-height: 275px;
+
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #f7f7f7;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #f7f7f7;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #f7f7f7;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #f7f7f7;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+  transition-property: box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.cualidad img {
+  display: block;
+  max-width: 128px;
+}
+.cualidad h3 {
+  text-align: center;
+}
+.cualidad p {
+  text-align: justify;
+}
+
+#galeria {
+  padding: 50px;
+}
+
+#galeria img {
+  aspect-ratio: 16/9;
+  max-width: 80%;
+}
+
+#extras {
+  background-color: #000;
+  color: #fff;
+  padding: 75px 75px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.extra {
+  max-width: 750px;
+  text-align: center;
+}
+
+.extra p {
+  margin-top: -15px;
+}
+
+#contacto {
+  font-size: 1.2em;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  display: block;
+  font-weight: 500;
+  width: fit-content;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: solid 2px #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: ease background-color 200ms;
+}
+
+.contact:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+footer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0;
+  text-align: center;
+}
