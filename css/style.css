@@ -20,6 +20,23 @@
   src: url(/jossmar-autos-sales/fonts/Salmon.ttf);
 }
 
+#banner {
+  text-align: center;
+  font-family: "LibreFranklin";
+  min-width: 300px;
+  display: block;
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: transparent;
+  background-image: url(/jossmar-autos-sales/images/banner.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-clip: border-box;
+  color: #fff;
+  height: fit-content;
+}
+
 body {
   font-family: "LibreFranklin";
   padding-bottom: 0;
@@ -60,23 +77,6 @@ body {
 .oculto {
   transform-origin: top;
   transform: scaleY(0);
-}
-
-#banner {
-  text-align: center;
-  font-family: "LibreFranklin";
-  min-width: 300px;
-  display: block;
-  padding-top: 20px;
-  padding-right: 0;
-  padding-left: 0;
-  background-color: transparent;
-  background-image: url(/jossmar-autos-sales/images/banner.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  background-clip: border-box;
-  color: #fff;
-  height: fit-content;
 }
 
 #navegacion {
@@ -243,12 +243,12 @@ body {
 }
 
 #galeria {
-  padding: 50px;
+  padding: 15px;
 }
 
 #galeria img {
   aspect-ratio: 16/9;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 #extras {
@@ -272,22 +272,22 @@ body {
 }
 
 #contacto {
-  font-size: 1.2em;
   padding-top: 50px;
+  font-size: 1.2em;
   display: flex;
+  text-align: center;
   flex-direction: column;
-  align-content: center;
   align-items: center;
 }
 
 .contact {
-  margin-top: 50px;
-  margin-bottom: 120px;
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 80px;
   display: block;
   font-weight: 500;
   width: fit-content;
   padding: 15px 30px;
-  font-size: 1.2em;
   border-radius: 5px;
   border: solid 2px #000;
   text-decoration: none;
