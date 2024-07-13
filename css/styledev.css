@@ -1,23 +1,23 @@
 @font-face {
   font-family: "Fast-Regular";
-  src: url(/jossmar-autos-sales/fonts/FastRegular.ttf);
+  src: url(/fonts/FastRegular.ttf);
 }
 @font-face {
   font-family: "Darelle";
-  src: url(/jossmar-autos-sales/fonts/Darelle.otf);
+  src: url(/fonts/Darelle.otf);
 }
 @font-face {
   font-family: "LibreFranklin";
-  src: url(/jossmar-autos-sales/fonts/LibreFranklin-VariableFont_wght.ttf);
+  src: url(/fonts/LibreFranklin-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "Heselna";
-  src: url(/jossmar-autos-sales/fonts/Heselna.ttf);
+  src: url(/fonts/Heselna.ttf);
 }
 
 @font-face {
   font-family: "Salmon";
-  src: url(/jossmar-autos-sales/fonts/Salmon.ttf);
+  src: url(/fonts/Salmon.ttf);
 }
 
 body {
@@ -71,7 +71,7 @@ body {
   padding-right: 0;
   padding-left: 0;
   background-color: transparent;
-  background-image: url(/jossmar-autos-sales/images/banner.png);
+  background-image: url(/images/banner.png);
   background-position: 50% 50%;
   background-size: cover;
   background-clip: border-box;
